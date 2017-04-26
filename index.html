@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Wiki-App</title>
+	<!--Bootstrap section-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!--Personal CSS-->
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://use.fontawesome.com/66537378f5.js"></script>
+</head>
+<body>
+	<section class="container-fluid" id="search">
+		<div class="row">
+			<div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-3">
+				<!--Search bar-->
+				<h1 class="text-center">WIKIPEDIA API Search</h1>
+				<h4 class="text-center">Free-Code-Camp</h4>
+				<div class="text-center rnd">
+					<h4>Random Stuff</h4>
+					<a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank" class="btn btn-primary">
+						<i class="fa fa-hand-peace-o fa-2x" aria-hidden="true"></i>
+					</a>
+					<br>
+					<br>
+				</div>
+				<div class="input-group">
+		      <input type="text" class="form-control" id="searchT" placeholder="Search for...">
+		      <span class="input-group-btn">
+		        <button class="btn btn-default" id="search" type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
+		      </span>
+    		</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-3">
+				<ul id="result">
+
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<!-- Latest compiled and minified JavaScript & jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="js/main.js" charset="utf-8"></script>
+</body>
+</html>

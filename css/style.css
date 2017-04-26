@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Cinzel:400,700');
+body, h4, {
+	font-family: 'Cinzel', serif;
+}
+
+
+h1{
+	font-family: 'Abril Fatface', cursive;
+}
+h2{
+	font-family: 'Cinzel', serif;
+	font-weight: 700px;
+	}
+.rnd{
+	padding-top: 30px;
+}
